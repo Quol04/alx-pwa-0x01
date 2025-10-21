@@ -1,5 +1,7 @@
 import Button from "@/components/commons/Button";
 import { useRouter } from "next/router";
+
+
 const Home: React.FC = () => {
   const router = useRouter();
 
@@ -34,7 +36,7 @@ const Home: React.FC = () => {
         </h2>
         <p className="text-lg md:text-2xl mb-12">
           Sign up today to get access to the latest movies, exclusive content,
-          and personalized movie recommendations.
+          and personalized movie recommendations all in one place.
         </p>
         <Button title="Get Started" />
       </section>
